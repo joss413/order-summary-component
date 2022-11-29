@@ -1,0 +1,28 @@
+//* FONT
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+@import "./bottom";
+@import "./variables";
+$Red-hat: "Red Hat Display", sans-serif;
+
+
+
+body {
+  font-size: 16px;
+  font-family: $Red-hat;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color:#d6e1ff ;
+  .container {
+    width:455px;
+    height:700px;
+    display: flex;
+    flex-direction:column;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+}

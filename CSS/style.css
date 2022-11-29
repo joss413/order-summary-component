@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.bottom .text {
+  padding: 0 70px;
+}
+.bottom .text h1 {
+  color: hsl(223deg, 47%, 23%);
+}
+.bottom .text p {
+  font-size: 17px;
+  color: hsl(224deg, 23%, 55%);
+}
+.bottom .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
+.bottom .buttons .annualplan {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  align-items: center;
+}
+.bottom .buttons .annualplan .music {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.bottom .buttons .annualplan .music .txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom .buttons .annualplan .music .txt .span1 {
+  font-size: 15px;
+  font-weight: 900;
+  color: hsl(223deg, 47%, 23%);
+}
+.bottom .buttons .annualplan .music .txt .span2 {
+  font-weight: 500;
+  color: hsl(224deg, 23%, 55%);
+}
+.bottom .buttons .annualplan a {
+  font-weight: 700;
+}
+.bottom .buttons .annualplan a:hover {
+  text-decoration: none;
+}
+.bottom .buttons .payment {
+  background-color: hsl(245deg, 75%, 52%);
+  border: none;
+  outline: none;
+  padding: 18px 0;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.bottom .buttons .cancel {
+  background-color: #fff;
+  color: hsl(224deg, 23%, 55%);
+  border: none;
+  outline: none;
+  padding: 18px 0;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #d6e1ff;
+}
+body .container {
+  width: 455px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+}/*# sourceMappingURL=style.css.map */
