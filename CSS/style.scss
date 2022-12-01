@@ -18,11 +18,33 @@ body {
   background-color:#d6e1ff ;
   .container {
     width:455px;
-    height:700px;
     display: flex;
     flex-direction:column;
     background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container{
+    max-width: 327px;
+    max-height: fit-content;
+   .bottom{
+    .text{
+      padding: 0  60px;
+      h1{
+          color:$Dark-blue;
+          font-size: 23px;
+      };
+      p{
+          font-size: 14px;
+          color:$Desaturated-blue;
+      }
+  }
+  .annualplan{
+    max-width:278px;
+  }
+   } 
   }
 }
